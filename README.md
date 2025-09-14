@@ -65,13 +65,13 @@ Here’s a nicely formatted **Setup Steps** section for your README:
    cd my-app
 ````
 
-2. **Start the development server**
+2. Start the development server
 
    ```bash
    npm run dev
    ```
 
-3. **Open in your browser** 🎉
+3. Open in your browser 🎉
    Visit: [http://localhost:3000](http://localhost:3000)
 
 
