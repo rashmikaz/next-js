@@ -24,15 +24,17 @@ Next.js is a React framework for building full-stack web applications. You use R
 - **TypeScript Support**  
   Comes with seamless TypeScript integration out of the box.
 
-Here’s a polished **Requirements** section for your GitHub README:
+
 
 ````markdown
+
 ## ✅ Requirements
 
 Before installing **Next.js**, make sure you have the following:
 
  
-  👉 Check your version with:  
+  👉 Check your version with:
+
   ```bash
   node -v
 ````
