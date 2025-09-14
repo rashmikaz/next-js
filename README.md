@@ -43,9 +43,15 @@ Before installing **Next.js**, make sure you have the following:
   ```bash
   npm -v
   ```
+  ## 📦 Install Next.js
+
+You can create a new Next.js project in one command:
+
+### Using **npm**
+```bash
+npx create-next-app@latest my-app
 
 ```
 
-Do you also want me to add an **"Installation & Setup"** section right after this, so readers can quickly run `npx create-next-app@latest` and start the project?
-```
+
 
