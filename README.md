@@ -59,23 +59,18 @@ npx create-next-app@latest my-app
 ````markdown
 ## ⚙️ Setup Steps
 
-1. Go inside your project folder
+Go inside your project folder
 
- ```bash
-   cd my-app
-```
-
-2. Start the development server
-
-   ```bash
-   npm run dev
-   ```
-
-3. Open in your browser 🎉
-   Visit: [http://localhost:3000](http://localhost:3000)
+cd my-app
 
 
+Start the development server
 
+npm run dev
+
+
+Open in your browser 🎉
+Visit: http://localhost:3000
 
 
 
