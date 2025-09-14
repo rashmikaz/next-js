@@ -31,7 +31,7 @@ Here’s a polished **Requirements** section for your GitHub README:
 
 Before installing **Next.js**, make sure you have the following:
 
-- **Node.js** (version **18** or later recommended)  
+ 
   👉 Check your version with:  
   ```bash
   node -v
@@ -43,6 +43,7 @@ Before installing **Next.js**, make sure you have the following:
   ```bash
   npm -v
   ```
+  
   ## 📦 Install Next.js
 
 You can create a new Next.js project in one command:
@@ -71,7 +72,6 @@ Here’s a nicely formatted **Setup Steps** section for your README:
 3. **Open in your browser** 🎉
    Visit: [http://localhost:3000](http://localhost:3000)
 
-```
 
 
 
