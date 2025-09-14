@@ -33,3 +33,8 @@ Before installing **Next.js**, make sure you have the following:
   ```bash
   node -v
 
+  npm (comes bundled with Node.js) or an alternative package manager like yarn or pnpm
+👉 Check your version with:
+
+npm -v
+
