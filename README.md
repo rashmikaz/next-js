@@ -73,7 +73,8 @@ Open in your browser 🎉
 Visit: http://localhost:3000
 
 
-# Next.js Project Routing Structure
+
+## Next.js Project Routing Structure
 
 This project is built using **Next.js** and demonstrates **file-based routing**, **nested routes**, and **grouped pages**.
 
