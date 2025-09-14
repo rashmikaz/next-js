@@ -50,20 +50,20 @@ Before installing **Next.js**, make sure you have the following:
 
 You can create a new Next.js project in one command:
 
-### Using **npm**
+### Using npm
 ```bash
 npx create-next-app@latest my-app
 
 ```
-Here’s a nicely formatted **Setup Steps** section for your README:
 
 ````markdown
 ## ⚙️ Setup Steps
 
-1. **Go inside your project folder**  
-   ```bash
+1. Go inside your project folder
+
+ ```bash
    cd my-app
-````
+```
 
 2. Start the development server
 
