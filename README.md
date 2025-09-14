@@ -52,6 +52,28 @@ You can create a new Next.js project in one command:
 npx create-next-app@latest my-app
 
 ```
+Here’s a nicely formatted **Setup Steps** section for your README:
+
+````markdown
+## ⚙️ Setup Steps
+
+1. **Go inside your project folder**  
+   ```bash
+   cd my-app
+````
+
+2. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+3. **Open in your browser** 🎉
+   Visit: [http://localhost:3000](http://localhost:3000)
+
+```
+
+
 
 
 
