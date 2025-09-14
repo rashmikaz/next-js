@@ -24,7 +24,10 @@ Next.js is a React framework for building full-stack web applications. You use R
 - **TypeScript Support**  
   Comes with seamless TypeScript integration out of the box.
 
-  ## ✅ Requirements
+Here’s a polished **Requirements** section for your GitHub README:
+
+````markdown
+## ✅ Requirements
 
 Before installing **Next.js**, make sure you have the following:
 
@@ -32,9 +35,17 @@ Before installing **Next.js**, make sure you have the following:
   👉 Check your version with:  
   ```bash
   node -v
+````
 
-  npm (comes bundled with Node.js) or an alternative package manager like yarn or pnpm
-👉 Check your version with:
+* **npm** (comes bundled with Node.js) or an alternative package manager like **yarn** or **pnpm**
+  👉 Check your version with:
 
-npm -v
+  ```bash
+  npm -v
+  ```
+
+```
+
+Do you also want me to add an **"Installation & Setup"** section right after this, so readers can quickly run `npx create-next-app@latest` and start the project?
+```
 
