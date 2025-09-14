@@ -73,4 +73,69 @@ Open in your browser 🎉
 Visit: http://localhost:3000
 
 
+# Next.js Project Routing Structure
+
+This project is built using **Next.js** and demonstrates **file-based routing**, **nested routes**, and **grouped pages**.
+
+---
+
+## 📌 Key Features
+
+1️⃣ **Basic Routing**  
+Next.js uses file-based routing. Each file inside the `pages/` (or `app/`) folder automatically becomes a route.  
+- `index.js` represents the root route (`/`).  
+
+**Example:**
+
+pages/
+├─ index.js → "/"
+├─ service.js → "/service"
+├─ product.js → "/product"
+└─ contact.js → "/contact"
+
+
+---
+
+2️⃣ **Nested Routes**  
+Create subfolders inside `pages/` to group related pages.  
+Files inside subfolders represent **nested routes**.
+
+**Example (About pages):**
+
+pages/about/
+├─ carrers.js → "/about/carrers"
+├─ socials.js → "/about/socials"
+└─ branches.js → "/about/branches"
+
+
+---
+
+3️⃣ **Grouped Pages**  
+You can logically group pages using folders to keep your project organized.  
+- Folder name = first part of URL  
+- File name = second part of URL  
+
+**Example (Login pages):**
+
+pages/
+├─ newUser.js → "/newUser"
+└─ signup.js → "/signup"
+
+
+## 🌐 Project Pages & URLs
+
+| Page             | URL                                |
+|-----------------|------------------------------------|
+| Home             | `http://localhost:3000/`           |
+| Service          | `http://localhost:3000/service`    |
+| Product          | `http://localhost:3000/product`    |
+| About - Carrers  | `http://localhost:3000/about/carrers` |
+| About - Socials  | `http://localhost:3000/about/socials` |
+| About - Branches | `http://localhost:3000/about/branches` |
+| Contact Us       | `http://localhost:3000/contact`    |
+| Login - New User | `http://localhost:3000/newUser`    |
+| Signup           | `http://localhost:3000/signup`  
+
+
+
 
