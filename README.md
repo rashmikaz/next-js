@@ -45,82 +45,66 @@ Before installing **Next.js**, make sure you have the following:
   ```bash
   npm -v
   ```
-  
-  ## 📦 Install Next.js
+  ## Installation
 
 You can create a new Next.js project in one command:
 
-### Using npm
 ```bash
 npx create-next-app@latest my-app
-
 ```
 
-````markdown
+You can create a new Next.js project in one command:
+
 ## ⚙️ Setup Steps
+Go inside your project folder:
 
-Go inside your project folder
-
+```bash
 cd my-app
-
-
+```
 Start the development server
-
+```bash
 npm run dev
-
-
+```
 Open in your browser 🎉
 Visit: http://localhost:3000
 
+## Installation
 
+You can create a new Next.js project in one command:
 
-## Next.js Project Routing Structure
+```bash
+npx create-next-app@latest my-app
+```
 
-This project is built using **Next.js** and demonstrates **file-based routing**, **nested routes**, and **grouped pages**.
+You can create a new Next.js project in one command:
 
----
+## ⚙️ Setup Steps
+Go inside your project folder:
 
-## 📌 Key Features
+```bash
+cd my-app
+```
+Start the development server
+```bash
+npm run dev
+```
+Open in your browser 🎉
+Visit: http://localhost:3000
 
+## Next.js Routing
 1️⃣ **Basic Routing**  
 Next.js uses file-based routing. Each file inside the `pages/` (or `app/`) folder automatically becomes a route.  
-- `index.js` represents the root route (`/`).  
-
-**Example:**
-
-pages/
-├─ index.js → "/"
-├─ service.js → "/service"
-├─ product.js → "/product"
-└─ contact.js → "/contact"
-
-
----
+- `index.js` represents the root route (`/`).
 
 2️⃣ **Nested Routes**  
 Create subfolders inside `pages/` to group related pages.  
 Files inside subfolders represent **nested routes**.
 
-**Example (About pages):**
-
-pages/about/
-├─ carrers.js → "/about/carrers"
-├─ socials.js → "/about/socials"
-└─ branches.js → "/about/branches"
-
-
----
 
 3️⃣ **Grouped Pages**  
 You can logically group pages using folders to keep your project organized.  
 - Folder name = first part of URL  
 - File name = second part of URL  
-
-**Example (Login pages):**
-
-pages/
-├─ newUser.js → "/newUser"
-└─ signup.js → "/signup"
 
 
 ## 🌐 Project Pages & URLs
@@ -135,8 +119,6 @@ pages/
 | About - Branches | `http://localhost:3000/about/branches` |
 | Contact Us       | `http://localhost:3000/contact`    |
 | Login - New User | `http://localhost:3000/newUser`    |
-| Signup           | `http://localhost:3000/signup`  
+| Signup           | `http://localhost:3000/signup`     |
 
-
-
-
+---
