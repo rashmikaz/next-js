@@ -156,5 +156,92 @@ export default function Home() {
   <Link href="/signup">Signup</Link>
 </nav>
 ```
+# Styling Navigation in Next.js
+
+
+## 1️⃣ Global Styles (globals.css)
+Global styles apply to everything.
+
+## Usage
+
+```python
+/* styles/globals.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+nav {
+  background-color: #333;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: yellow;
+}
+```
+
+
+## 2️⃣ CSS Modules (Component-Specific Styles)
+Each component can have its own CSS file ending with .module.css.
+
+## Usage
+
+```python
+.navbar {
+  background-color: #222;
+  padding: 12px;
+  display: flex;
+}
+
+.link {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #00ffcc;
+}
+```
+
+## 3️⃣ Navbar Component Using CSS Module
+
+
+## Usage
+
+```python
+import Link from "next/link"
+import styles from "./Navbar.module.css"
+
+export default function Navbar() {
+  return (
+    <nav className={styles.navbar}>
+      <Link href="/" className={styles.link}>Home</Link>
+      <Link href="/service" className={styles.link}>Service</Link>
+      <Link href="/product" className={styles.link}>Product</Link>
+      <Link href="/about/carrers" className={styles.link}>Carrers</Link>
+      <Link href="/about/socials" className={styles.link}>Socials</Link>
+      <Link href="/about/branches" className={styles.link}>Branches</Link>
+      <Link href="/contact" className={styles.link}>Contact</Link>
+      <Link href="/newUser" className={styles.link}>New User</Link>
+      <Link href="/signup" className={styles.link}>Signup</Link>
+    </nav>
+  )
+}
+```
+globals.css → global styles (body, default nav, etc.)
+Navbar.module.css → scoped styles only for Navbar
+
+
+
 
 
