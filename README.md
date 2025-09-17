@@ -122,3 +122,39 @@ You can logically group pages using folders to keep your project organized.
 | Signup           | `http://localhost:3000/signup`     |
 
 ---
+
+# 🚀 Navigation in Next.js
+
+Next.js provides a special <Link> component for fast, client-side navigation (no full page reload).
+
+
+
+## Usage
+
+```python
+import Link from "next/link"
+
+export default function Home() {
+  return (
+    <div>
+      <h1>Home Page</h1>
+      <Link href="/about">Go to About Page</Link>
+    </div>
+  )
+}
+```
+```python
+<nav>
+  <Link href="/">Home</Link>
+  <Link href="/service">Service</Link>
+  <Link href="/product">Product</Link>
+  <Link href="/about/carrers">Carrers</Link>
+  <Link href="/about/socials">Socials</Link>
+  <Link href="/about/branches">Branches</Link>
+  <Link href="/contact">Contact</Link>
+  <Link href="/newUser">New User</Link>
+  <Link href="/signup">Signup</Link>
+</nav>
+```
+
+
